@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+ 
+<symbol id="caret"  viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 14H19" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 7L19 14L12 21" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="check"  viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="18" cy="18" r="18" fill="#0A2640"/>
+    <path d="M26 12L15 23L10 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="leaf" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.24 14.24C23.3658 13.1142 23.9983 11.5872 23.9983 9.99504C23.9983 8.40285 23.3658 6.87588 22.24 5.75004C21.1142 4.62419 19.5872 3.9917 17.995 3.9917C16.4028 3.9917 14.8758 4.62419 13.75 5.75004L7 12.5V21H15.5L22.24 14.24Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 10L4 24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.5 17H11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol  id="eye"  viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_62_553)">
+<path d="M1.77502 12.6543C1.77502 12.6543 5.77502 4.6543 12.775 4.6543C19.775 4.6543 23.775 12.6543 23.775 12.6543C23.775 12.6543 19.775 20.6543 12.775 20.6543C5.77502 20.6543 1.77502 12.6543 1.77502 12.6543Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.775 15.6543C14.4319 15.6543 15.775 14.3112 15.775 12.6543C15.775 10.9974 14.4319 9.6543 12.775 9.6543C11.1182 9.6543 9.77502 10.9974 9.77502 12.6543C9.77502 14.3112 11.1182 15.6543 12.775 15.6543Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_62_553">
+<rect width="24" height="24" fill="white" transform="translate(0.775024 0.654297)"/>
+</clipPath>
+</defs>
+</symbol>
+
+<symbol id="light"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_62_578)">
+<path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 1V3" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 21V23" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.22 4.21997L5.64 5.63997" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.36 18.3601L19.78 19.7801" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 12H3" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H23" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.22 19.7801L5.64 18.3601" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.36 5.63997L19.78 4.21997" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_62_578">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</symbol>
+
+<symbol id="cicle-caret"  viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="36" cy="36" r="36" transform="rotate(-180 36 36)" fill="white"/>
+<path d="M46.5 35L25.5 35" stroke="#0A2640" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 45.5L25.5 35L36 24.5" stroke="#0A2640" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol  id="dark-caret"  viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14" cy="14" r="14" fill="#0A2640"/>
+<path d="M8 12L14 18L20 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="hamburger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+</symbol>
+
+
+</svg>

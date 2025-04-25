@@ -1,0 +1,261 @@
+.home__container{
+
+}
+
+.app_side_pad{
+   padding: 0 150px
+}
+
+.hamburger{
+  display: none;
+}
+
+.top__section{
+  position: relative;
+  height: 798px;
+  background-color: var(--brand-col);
+  
+   padding: 0 100px;
+   padding-top: 56px;
+  overflow-x: hidden;
+  .curved__{
+    position: absolute;
+    background: #1C3D5B;
+    height: 500px;
+    width: 600px;
+    right: -19px;
+    top: 0;
+    border-radius: 0 0 0 100%;
+  }
+
+  .top_illustr{
+    object-position: top center;
+  }
+  
+}
+
+.header{
+  display: flex;
+  position: relative;
+  z-index: 10;
+  justify-content: space-between;
+  height: 42px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  font-family: var(--openSans);
+  font-weight: 600;
+
+  ul {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    gap: 40px;
+
+    li {
+      list-style: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.jumbotron{
+  display: flex;
+  position: static;
+  z-index: 10;
+  height: 423px;
+  margin-top: 64px; 
+
+  
+}
+
+.jumbotron_desc{
+  display: flex;
+  
+  align-items: center;
+  flex:1;
+  color: #fff;
+
+  .desc_wrapper{
+    width: 75%;
+
+    h2{
+      position:relative;
+      z-index: 20;
+      font-size: 4.8rem;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+      color: #ffffff;
+     
+    }
+
+    span{
+      font-family: var(--openSans);
+      font-size: 1.6rem;
+      line-height: 1.5;
+    }
+
+  }
+
+  .cta_div{
+    display: flex;
+    margin-top: 4.5rem;
+    gap: 20px;
+
+    .btn{
+      height: 60px;
+      font-size: 20px;
+      border-radius: 56px;
+
+      &.template{
+        background: var(--green);
+        width: 247px;
+
+      }
+      &.xplore{
+        background: transparent;
+        border: 2px solid #fff;
+        color:#fff;
+        width: 187px;
+
+      }
+    }
+    
+  }
+  
+  
+}
+
+.jumbotron_illustr {
+  position: relative;
+  width: 40%;
+ 
+}
+
+.company_logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 93px;
+  margin-top: 75px;
+    img{
+      object-fit: contain;
+      object-position: center;
+    }
+
+
+  & > div {
+    position: relative;
+    width: 145px;
+    height: 42px;
+
+    &:first-of-type, &:last-of-type{
+
+      &::after{
+        position: absolute;
+        left:0;
+        top:0;
+        content:'';
+        display: inline-block;
+        width: 100%;       
+        height: 100%;
+      }
+   }
+
+
+   &:first-of-type{
+      &::after{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0) -100%, rgba(10, 38, 64, 1) 100%);
+      }
+   }
+
+   &:last-of-type{
+      &::after{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) -100%, rgba(10, 38, 64, 1) 100%);
+      }
+   }
+
+  }
+  
+
+}
+
+
+ @media only screen and (max-width: 1024px) {
+
+   .app_side_pad{
+    padding: 20px 50px
+  }
+
+  .top_illustr{
+    object-fit: contain;
+    object-position:  center;
+  
+  }
+
+ }
+
+
+ @media only screen and (max-width: 968px) {
+
+   .app_side_pad{
+    padding: 20px 40px
+  }
+
+  .jumbotron_desc {
+    .cta_div {
+      .btn.template {
+       
+        width: 320px
+      }
+    }
+  }
+  .header__nav{
+    display: block;
+  }
+}
+
+
+ @media only screen and (max-width: 425px) {
+
+   .header__nav{
+    display: none;
+  }
+
+  .hamburger{
+   color : #fff;
+   display: inline-block;
+   cursor: pointer;
+  }
+
+  .company_logos{
+    gap: 15px;
+  }
+
+  .top__section .top_illustr{
+    display: none;
+  }
+
+  .jumbotron_desc {
+    .desc_wrapper {
+      width: 100%;
+      position: relative;
+      h2{
+        font-size: 3.8rem;
+      }
+    }
+    .cta_div {
+      flex-direction: column;
+      .btn.xplore, .btn {
+       
+        width: 320px
+      }
+      
+    }
+  }
+}
+
+

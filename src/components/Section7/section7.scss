@@ -1,0 +1,152 @@
+.section7{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-left: 150px;
+   margin-bottom: 80px;
+  .our_service{
+    font-size: 2rem;
+    font-family: var(--openSans);
+    font-weight: 400;
+    color: var(--gray)
+  }
+
+  .desc{
+    width: 75%;
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    
+
+    p{
+      margin: 1.5rem 0;
+    }
+  }
+
+  .illustrations{
+    display: grid;
+    margin: 68px 0px ;
+    padding: 0 50px;
+    gap: 52px;
+    width: 100%;
+    font-family: var(--openSans);
+  
+    grid-template-columns: repeat(3,  1fr);
+
+    article{
+      display: flex;
+      flex-direction: column;
+      border-radius: 2.4rem 2.4rem 0 0;
+      font-family: var(--openSans);
+      min-height: 424px;
+      .img_div{
+        height: 209px;
+        border-radius: 12px;
+        overflow: hidden;
+
+        img{
+          object-position: center;
+        }
+      }
+
+      h2{
+        margin: 2rem 0rem 1rem 0rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+      }
+
+     .feature__desc{
+        font-size: 2rem;
+        font-weight: 400;
+        color: #000000;
+        line-height: 1.6;
+     }
+
+     .xplore_div{
+       display: inline-flex;
+       align-items: center;
+       margin-top: 2.5rem;
+       font-size: 2rem;
+       font-weight: 700;
+       padding-bottom: 1.5rem;
+       border-bottom: 1px solid #000000;     
+       align-self: self-start;         
+     }
+
+     .icon_{
+       margin-left: 1rem;
+     }
+    }
+  }
+  .avatar__wrapper{
+    display: flex;
+
+    align-items: center;
+    margin-top: auto;
+   
+  }
+  .avatar{
+    width: 32px;
+    height: 32px;
+  }
+  .load_more{
+    font-size: 2rem;
+    height: 60px;
+    width: 219px;
+    border: 2px solid var(--brand-col);
+    color: var(--brand-col);
+    border-radius: 56px;
+    background-color: transparent;
+  }
+}
+
+
+ @media only screen and (max-width: 1024px) {
+     .section7 {
+        margin-bottom: 0px;
+        .illustrations {
+            grid-template-columns: repeat(3,1fr);
+            gap: 25px;
+
+        }
+        
+    }
+}
+
+
+ @media only screen and (max-width: 968px) {
+    .section7 {
+        .desc{
+            width: 100%;
+        }
+        .illustrations {
+            padding: 0;
+            article .feature__desc{
+                font-size: 1.6rem;
+            }
+        }
+        
+    }
+}
+
+
+ @media only screen and (max-width: 425px) {
+    .section7 {
+        .avatar__wrapper{
+           margin-top: 20px;
+        }
+        .illustrations {
+            grid-template-columns: 1fr;
+            margin-bottom: 40px;
+            article .feature__desc{
+                
+            }
+        }
+        .desc p{
+            font-size: 3.8rem;
+        }
+    }
+}
+
+

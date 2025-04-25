@@ -1,0 +1,129 @@
+.section2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-left: 150px;
+
+   .our_service{
+    font-size: 2rem;
+    font-family: var(--openSans);
+    font-weight: 400;
+    color: var(--gray)
+  }
+
+  .desc{
+    width: 75%;
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin-top: 5rem;
+
+    p{
+      margin: 1.5rem 0;
+    }
+  }
+
+  .illustrations{
+    display: grid;
+    margin: 68px 0px ;
+    
+    gap: 95px;
+    width: 100%;
+    font-family: var(--openSans);
+  
+    grid-template-columns: repeat(3,  1fr);
+
+    article{
+      display: flex;
+      flex-direction: column;
+      border-radius: 2.4rem 2.4rem 0 0;
+
+      .img_div{
+        height: 354px;
+        border-radius: 2.4rem;
+        overflow: hidden;
+
+        img{
+          object-position: center;
+          object-fit: cover;
+        }
+      }
+
+      h2{
+        margin: 2rem 0rem 1rem 0rem;
+      }
+
+     .feature__desc{
+        font-size: 2rem;
+        color: var(--gray);
+        line-height: 1.6;
+     }
+
+     .xplore_div{
+       display: inline-flex;
+       align-items: center;
+       margin-top: 2.5rem;
+       font-size: 2rem;
+       font-weight: 700;
+       padding-bottom: 1.5rem;
+       border-bottom: 1px solid #000000;     
+       align-self: self-start;         
+     }
+
+     .icon_{
+       margin-left: 1rem;
+     }
+    }
+  }
+}
+
+
+
+ @media only screen and (max-width: 1024px) {
+    .section2 {
+      .illustrations{
+        gap: 35px;
+
+        article {
+            h2 {
+            font-size: 2rem;
+          }
+          .img_div {
+              height: 240px;
+              img{
+                object-fit: contain;
+            }
+          }
+        }
+
+      }
+      .desc{
+        width: 100%;
+      }
+    }
+
+ }
+
+
+
+  @media only screen and (max-width: 425px) {
+    .section2 {
+      .illustrations{
+        grid-template-columns:  1fr;
+        gap: 60px;
+
+        article{
+
+          .img_div img{
+            object-fit: cover;
+          }
+        }
+
+      }
+      .desc{
+        width: 100%;
+      }
+    }
+
+ }

@@ -1,0 +1,133 @@
+.section4{
+  display: flex;
+ padding-left: 150px;
+  height: 692px;
+  margin-top: 150px;
+
+  & > div {
+    flex: 1;
+  }
+  .img__wrapper{
+    position: relative;
+    width: 444px;
+    height: 523px;
+    margin-left: 80px;
+ 
+    .abs_img{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 291px;
+    border-radius: 12px;
+    height: 388px;
+    object-fit: cover;
+    padding: 36px;
+    background-color: #ffffff;
+    bottom: -173px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.05);
+    right: 112px;
+      img{
+        width: 173px;
+        height: 173px;
+            margin: 1rem ;
+        
+       
+      }
+    }
+    .percent{
+      display: block;
+    font-size: 1.4rem;
+    margin: 1.6rem 1rem;
+    
+      &::before{
+        content: '';
+        display: inline-block;
+        margin-right: 10px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+      }
+
+      &:first-of-type::before{
+        background-color: #0DBBFC;
+      }
+      &:nth-of-type(2)::before{
+        background-color: #69E6A6;
+      }
+    }
+  }
+  .wedo__wrapper{
+    width: 84.1%;
+ 
+    padding-top: 35px;
+    
+  }
+
+  .wedo_p{
+   font-size: 3.6rem;
+  
+  }
+
+  
+    .bar__div_wrapper{
+        .bar__div{
+        display: flex;
+        align-items: center;
+        height: 68px;
+        background-color: #fff;
+
+        margin: 25px 0;
+        border-radius: 0.25rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.05);
+
+        &:first-of-type{
+            background-color: var(--brand-col);
+            color: #ffffff;
+        }
+        &>svg{
+            margin: 0 20px;
+        }
+
+        }
+
+    }
+
+}
+
+
+ @media only screen and (max-width: 968px) {
+    .section4 {
+        flex-direction: column;
+        height: 900px;
+        margin-top: 10px;
+        .wedo__wrapper{
+            width: 100%;
+        }
+
+        .img__wrapper{
+            height: 420px;
+           
+            margin: 40px auto;
+            img{
+                border-radius: 24px;
+                object-fit: cover;
+            }
+        }
+
+    }
+}
+
+
+ @media only screen and (max-width: 425px) {
+    .section4 {
+        .img__wrapper{
+            width: 100%;
+            .abs_img{
+                right: 67px;
+            }
+        }
+    }
+
+ }
