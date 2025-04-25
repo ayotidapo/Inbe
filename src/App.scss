@@ -1,5 +1,55 @@
-.home__container{
+.nav_modal{
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.95);
+   z-index: 50;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity 0.2s linear;
 
+   .mobile_nav_wrapper {
+      width: 0px;
+      height: 100%;
+      padding: 0px;
+      padding-top: 0px;
+      overflow-x: hidden;
+      transition: width 0.1s linear;
+      background-color: #ffffff;
+      
+      .close_nav{
+        display: flex;
+        font-size: 4rem;
+        justify-content: flex-end;
+        cursor: pointer;
+
+      }
+    
+      .header__nav{
+        display: flex;
+        align-items: flex-start;
+        ul{
+           flex-direction: column;
+          color: var(--brand-col);
+          padding-left: 0;
+        }
+      }
+   }
+
+    &.open{
+      visibility: visible;
+      opacity: 1;
+        .mobile_nav_wrapper{
+            width: 85%;
+            padding: 0px 20px;
+        }
+      }
+   .log_in{
+     background-color: var(--brand-col);
+     color: #ffffff;
+   }
 }
 
 .app_side_pad{
@@ -42,25 +92,6 @@
   height: 42px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  font-family: var(--openSans);
-  font-weight: 600;
-
-  ul {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    margin: 0;
-    gap: 40px;
-
-    li {
-      list-style: none;
-      cursor: pointer;
-    }
-  }
-}
 
 .jumbotron{
   display: flex;
@@ -220,7 +251,11 @@ nav {
 
 
  @media only screen and (max-width: 425px) {
+  
 
+   .app_side_pad{
+    padding: 20px;
+  }
    .header__nav{
     display: none;
   }
@@ -249,9 +284,9 @@ nav {
     }
     .cta_div {
       flex-direction: column;
-      .btn.xplore, .btn {
+      .btn.xplore, .btn.template {
        
-        width: 320px
+        width: 250px
       }
       
     }
