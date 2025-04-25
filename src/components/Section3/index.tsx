@@ -1,5 +1,5 @@
-import Icon from '@/atoms/Icon'
-import Button from '@/atoms/Button'
+import Icon from '../../atoms/Icon'
+import Button from '../../atoms/Button'
 
 
 import './section3.scss'

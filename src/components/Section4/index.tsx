@@ -1,4 +1,4 @@
-import Icon from '@/atoms/Icon'
+import Icon from '../../atoms/Icon'
 import './section4.scss'
 
 const Section4 = () => {

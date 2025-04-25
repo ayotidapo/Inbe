@@ -1,4 +1,4 @@
-import CircleCaret from '@/atoms/Icon/CircleCaret'
+import CircleCaret from '../../atoms/Icon/CircleCaret'
 import './section5.scss'
 
 

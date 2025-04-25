@@ -1,7 +1,7 @@
-import Icon from '@/atoms/Icon'
-import manStanding from '@/images/man-standing.png'
-import menShaking from '@/images/men-shaking.png'
-import manLonely from '@/images/lonely-man.png'
+import Icon from '../../atoms/Icon'
+import manStanding from '../../images/man-standing.png'
+import menShaking from '../../images/men-shaking.png'
+import manLonely from '../../images/lonely-man.png'
 
 import './section2.scss'
 

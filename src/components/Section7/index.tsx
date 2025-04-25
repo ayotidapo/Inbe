@@ -1,5 +1,5 @@
-import Button from '@/atoms/Button'
-import manStanding from '@/images/man-standing.png'
+import Button from '../../atoms/Button'
+import manStanding from '../../images/man-standing.png'
 import './section7.scss'
 
 const Section7 = () => {
